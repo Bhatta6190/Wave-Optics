@@ -9,7 +9,7 @@ This directory contains code, tasks, and observations for simulating and analyzi
   - Circular arrangements with adjustable radial separation.
   - Linear arrangements with varying separation distances.
 - **Visualization Outputs**:
-  - Amplitude ($\|E(x, y, z)| \$) and phase ($\ Phi(x, y, z) \$) plots.
+  - Amplitude ($\|E(x, y, z)| \$) and phase ($\ Φ(x, y, z) \$) plots.
   - Plots for near-field, intermediate, and far-field distances.
 - **Pattern Analysis**:
   - Differences between central and outer regions of irradiance plots.
