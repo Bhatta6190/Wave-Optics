@@ -1,32 +1,23 @@
 
 # Exact Interference of Spherical Waves
 
-This directory contains code to compute and render amplitude ($|E(x, y, z)|$) and phase ($\Phi(x, y, z)$) distributions of monochromatic spherical waves. The electric field is given by:
+This directory contains code, tasks, and observations for simulating and analyzing the interference of spherical waves emitted by multiple sources. The project explores how wave patterns form and evolve under different configurations and distances.
 
-$\
-E(x, y, z) = \sum_{j=1}^N \frac{A_j}{r_j} e^{i(kr_j + \phi_j)},
-\$
-where $r_j = \sqrt{(x - x_j)^2 + (y - y_j)^2 + z^2}$.
+## Features
+- **Wave Interference Simulation**: Models interference patterns for multiple spherical wave sources.
+- **Configurable Source Arrangements**:
+  - Circular arrangements with adjustable radial separation.
+  - Linear arrangements with varying separation distances.
+- **Visualization Outputs**:
+  - Amplitude ($|E(x, y, z)|$) and phase ($\Phi(x, y, z)$) plots.
+  - Plots for near-field, intermediate, and far-field distances.
+- **Pattern Analysis**:
+  - Differences between central and outer regions of irradiance plots.
+  - Effect of source separation on pattern compactness.
+  - Far-field approximations using plane waves.
 
-## Tasks
-1. **Three Sources in Circular Arrangement**  
-   - $N = 3$, $z = 1000\lambda$, pixel size $\Delta x = \Delta y = \lambda$, grid $1024 \times 1024$.  
-   - Cases:  
-     (a) $a = 10\lambda$,  
-     (b) $a = 30\lambda$.  
+## Content
+- **Code**: Python scripts to compute and render interference patterns is included in `Interference_Spherical_Waves.ipynb` jupyter notebook file.
+- **Tasks**: Detailed problem statements for various configurations and scenarios are provided in `Interference_Spherical_Waves_Tasks.pdf` file..
 
-2. **Two Sources Along X-Axis**  
-   - $N = 2$, $z = 1000\lambda$, $x_1 = -a$, $x_2 = a$, $y_1 = y_2 = 0$.  
-   - Cases:  
-     (d) $a = 10\lambda$,  
-     (e) $a = 30\lambda$.  
 
-3. **Amplitude Variation with Distance**  
-   - Explore $|E(x, y, z)|$ for different $z$, from near-field to far-field.
-
-4. **Plane Wave Representation**  
-   - Identify which far-field patterns correspond to 3 plane waves:
-     $$
-     |E| \sim \left| \sum_{j=1}^3 e^{i(k_{x,j}x + k_{y,j}y)} \right|,
-     $$
-     where $k_{x,j} = \frac{2\pi}{\lambda} \frac{x_j}{z}$, $k_{y,j} = \frac{2\pi}{\lambda} \frac{y_j}{z}$.
