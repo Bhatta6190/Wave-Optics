@@ -11,6 +11,6 @@ This repository hosts resources compiled as a part of graduate level wave optics
 
 - **`Irradiance-PSF-and-MTF`**: Contains numerical implementations for the analysis of `irradiance`, `Point Spread Function (PSF)`, and `Modulation Transfer Function (MTF)` in optical systems.  
 
-**Acknowledgment**: 
+**Acknowledgment**:   
 Special thanks to **Dr. Grover Swartzlander** (https://www.rit.edu/directory/gaspci-grover-swartzlander) for providing guidance and resources for these works.
 
