@@ -1,7 +1,7 @@
 
 # Exact Interference of Spherical Waves
 
-This directory contains code, tasks, and observations for simulating and analyzing the interference of spherical waves emitted by multiple sources. The project explores how wave patterns form and evolve under different configurations and distances.
+This directory contains code, tasks, and observations for simulating and analyzing the interference of spherical waves emitted by multiple sources as a part of graduate level optics course. The work explores how wave patterns form and evolve under different configurations and distances.
 
 ## Features
 - **Wave Interference Simulation**: Models interference patterns for multiple spherical wave sources.
