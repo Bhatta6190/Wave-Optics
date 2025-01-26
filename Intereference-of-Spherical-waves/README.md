@@ -3,9 +3,9 @@
 
 This directory contains code to compute and render amplitude ($|E(x, y, z)|$) and phase ($\Phi(x, y, z)$) distributions of monochromatic spherical waves. The electric field is given by:
 
-$$
+$\
 E(x, y, z) = \sum_{j=1}^N \frac{A_j}{r_j} e^{i(kr_j + \phi_j)},
-$$
+\$
 where $r_j = \sqrt{(x - x_j)^2 + (y - y_j)^2 + z^2}$.
 
 ## Tasks
